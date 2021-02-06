@@ -1,9 +1,9 @@
-package com.synopsis;
+package ws.synopsis.model;
 
-public class Multiplicacion extends Operacion {
+public class Multiplication extends Operation {
     double multi;
     
-    public Multiplicacion(double n1, double n2) {
+    public Multiplication(double n1, double n2) {
              
         super(n1, n2);
         multi = n1 * n2;
